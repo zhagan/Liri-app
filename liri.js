@@ -45,7 +45,7 @@ function execute(command, argument) {
 			spotifySong(argument);
 
 		} else {
-			spotifySong('The Sign Ace of Base');
+			spotifySong('Dark Xmas Zack Hagan');
 		}
 
 	} else if (command === 'movie-this') {
@@ -171,7 +171,7 @@ function movieThis(movieName) {
 			title: body.Title,
 			year: body.Year,
 			imdbRating: body.imdbRating,
-			rottenTomatoesRating: "NA",// rottenTomatoesRating,
+			//rottenTomatoesRating: "NA",// rottenTomatoesRating,
 			countryOfOrigin: body.Country,
 			language: body.Language,
 			plot: body.Plot,
