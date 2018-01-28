@@ -80,7 +80,7 @@ function execute(command, argument) {
 function myTweets() {
 
 	var params = {
-		screen_name: 'nadevtest',
+		screen_name: 'zackhagan',
 		count: 20
 	};
 
