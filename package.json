@@ -1,0 +1,26 @@
+{
+  "name": "liri_bot",
+  "version": "1.0.0",
+  "description": "a node app for getting info from many sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NA-Dev/LIRI_Bot.git"
+  },
+  "author": "Nikki Aaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NA-Dev/LIRI_Bot/issues"
+  },
+  "homepage": "https://github.com/NA-Dev/LIRI_Bot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "moment": "^2.20.1",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
